@@ -20,11 +20,8 @@ export default function Gallery() {
 
   return (
     <div className="cookie">
-      <img
-        className="image"
-        onClick={handleClick}
-        src="../assets/images.jpg"
-      ></img>
+      <img src="../assets/images.jpg" className="image" onClick={handleClick} />
+
       <h2>COOKIES:{count}</h2>
       <h2>CPS:{cps}</h2>
       <button className="buy" onClick={buyUpgrade}>
