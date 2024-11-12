@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
 }
 .image {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 200px;
   text-align: center;
   position: absolute;
