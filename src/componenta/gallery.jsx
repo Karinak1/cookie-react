@@ -21,8 +21,8 @@ export default function Gallery() {
   return (
     <div className="cookie">
       <img
-        src="./assets/images.jpg"
         className="image"
+        src="./assets/images.jpg"
         onClick={handleClick}
       ></img>
 

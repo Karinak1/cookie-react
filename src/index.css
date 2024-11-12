@@ -12,8 +12,9 @@ body {
   border-radius: 50%;
   height: 200px;
   text-align: center;
-  display: flex;
+  position: absolute;
   align-items: center;
+  bottom: 60px;
 }
 h1 {
   color: white;
