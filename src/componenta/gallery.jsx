@@ -28,8 +28,9 @@ export default function Gallery() {
 
       <img
         className="image"
-        src="../assets/Cookie-web 50.jpg"
+        src="../assets/images.jpg"
         onClick={handleClick}
+        alt="cookie image"
       ></img>
     </div>
   );
