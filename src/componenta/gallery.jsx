@@ -20,17 +20,17 @@ export default function Gallery() {
 
   return (
     <div className="cookie">
-      <img
-        className="image"
-        src="./assets/images.jpg"
-        onClick={handleClick}
-      ></img>
-
       <h2>COOKIES:{count}</h2>
       <h2>CPS:{cps}</h2>
       <button className="buy" onClick={buyUpgrade}>
         BUY UPGRADE
       </button>
+
+      <img
+        className="image"
+        src="../assets/Cookie-web 50.jpg"
+        onClick={handleClick}
+      ></img>
     </div>
   );
 }
